@@ -28,7 +28,7 @@ lable_one=ttk.Label(win,text="ADRESS OF SECOND FOLDER---->",font=('ariel',20)).g
 lable_one=ttk.Label(win,text="(also from which you want to remove file)",font=('ariel',10)).grid(row=7,column=0)
 input_box_two=ttk.Entry(win,font=('ariel',20),textvariable=second,width=40).grid(row=6,column=1)
 style=ttk.Style()
-style.configure("TButton",font=('ariel',20))
+style.configure("TButton",font=('verdana',20))
 btn=ttk.Button(win,text="PROCEED FOR ACTION",command=action).grid(row=8,column=1)
 win.mainloop()
 
